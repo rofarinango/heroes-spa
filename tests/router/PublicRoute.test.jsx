@@ -49,6 +49,5 @@ describe('Pruebas en el <PublicRoute/>', () => {
 
         expect(screen.getByText('Pagina Marvel')).toBeTruthy();
 
-        screen.debug();
       })
  })
