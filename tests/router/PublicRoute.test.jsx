@@ -19,7 +19,7 @@ describe('Pruebas en el <PublicRoute/>', () => {
 
         expect(screen.getByText('Ruta Publica')).toBeTruthy();
 
-        screen.debug();
+        
      })
 
      test('debe de navegar si esta autenticado', () => { 
